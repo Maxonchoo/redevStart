@@ -1,1 +1,2 @@
-console.log('hello wrold');
+let num = 3;
+console.log(num);
