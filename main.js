@@ -33,11 +33,17 @@ console.log(result);
 */
 
 
-/* ~~~ task for learn js */
+/* ~~~ task for learn js ~~~ */
 
 /* task 1 
 let admin ,
     name = "Джон";
 console.log(admin = name);
+*/
+
+
+/* task 2
+let planetName = "Земля",
+    userName = "Maxim";
 */
 
