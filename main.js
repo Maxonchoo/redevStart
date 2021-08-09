@@ -16,10 +16,31 @@ console.log(2 ** 10);
 */
 
 // Условный оператор
-let a, b ; 
-if(a == b){
 
-}else{
+/*
+задание 1 
+ вариант 1
+ let test = true;
+if (test == true) {
+    console.log(`Верно`);
+} else {
+    console.log(`Не верно`);
+}
+*/
 
-};
+/* задание 1  вариант 2
+test == true ? console.log(`Верно`) : console.log(`Не верно`);
+*/
 
+/* задание 2 вариант 1
+let test = true;
+
+if (test != true) {
+    console.log(`Верно`);
+} else {
+    console.log(`Не верно`);
+}
+
+ЗАдание 2 вариант 2 
+test != true ? console.log(`Верно`) : console.log(`Не верно`);
+*/
