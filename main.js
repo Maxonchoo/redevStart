@@ -1,22 +1,64 @@
-/*let a = -3;
-
-(a > 0 && a < 5) ? console.log(`Верно!`) : console.log(`Не верно`);
+/*Задание 1 вариант с While
+let a = 0;
+while (a <= 100) {
+    console.log(a++);
+}
+*/ 
+/* Задание 1 вариант с for
+for (let a = 0; a <= 100; a++){
+    console.log(a);
+}
+*/
+/*Задание 2 вариант с while  
+let a = 11;
+while (a <= 33) {
+    console.log(a++);
+}
 */
 
-/*
-let a = 2;
-
-(a == 0 || a == 2) ? console.log(a += 7) : console.log(a /= 10);
+/*Задание 2 вариант с for вариант реализации 1
+for (let a = 11; a <= 33; a++){
+    console.log(a);
+}
 */
 
-/*
-let a = 3,
-    b = 5;
-
-(a <= 1 && b >= 3) ? console.log(a + b) : console.log(a - b);
+/* Задание 2 вариант с for вариант реализации 2
+for (let a = 0; a <= 33; a++){
+    if (a < 11) continue;
+    console.log(a);
+}
 */
 
-let a = 4,
-    b = 7;
+/*Задание 3 вариант с While
+let a = 0;
+while (a <= 100) {
+    a++;
+    if(a % 2 == 0){
+        console.log(a);
+    }
+}
+*/
 
-(a > 2 && a < 11 || b >= 6 && b < 14) ? console.log(`Верно`) : console.log(`Неверно`);
+/*Задание 3 вариант с for
+for(let a = 0; a <= 100; a++){
+    if(a % 2 == 0){
+        console.log(a);
+    }
+}
+*/
+
+/*Задание 4 вариант с while
+let sum = 0,
+    i = 0;
+while (i <= 100) {
+    console.log(sum += i);
+    i++;
+}
+*/
+
+/*Задание 4 Вариант с for
+let sum = 0;
+for (let i = 0; i <= 100; i++){
+    console.log(sum += i);
+}
+*/
