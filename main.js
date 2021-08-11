@@ -62,3 +62,16 @@ for (let i = 0; i <= 100; i++){
     console.log(sum += i);
 }
 */
+
+/* задача из youtube "фрилансер по жизни"
+for (let num = 0; num < 2; num++){
+    console.log(`Num: ${num}`);
+    for (let size = 0; size < 3; size++) {
+        if(num == 1) {
+            break;
+        }else{
+            console.log(`Size: ${size}`);
+        }
+    }
+    
+}
