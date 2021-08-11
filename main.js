@@ -1,77 +1,64 @@
-/*Задание 1 вариант с While
-let a = 0;
-while (a <= 100) {
-    console.log(a++);
+/*let money = +prompt(`Введите сумму которую хотите снять: 5, 10, 50, 100, 500 `);
+switch (money) {
+    case 5: console.log(`Вывести 5 евро`);
+        break;
+    case 10: console.log(`Вывести 10 евро`);
+        break;
+    case 50: console.log(`Вывести 50 евро`);
+        break;
+    case 100: console.log(`Вывести 100 евро`);
+        break;
+    case 500: console.log(`Вывести 500 евро`);
+        break;
+    default:   
+        console.log(`Операция не ваозможна!`);
+        break;
 }
-*/ 
-/* Задание 1 вариант с for
-for (let a = 0; a <= 100; a++){
-    console.log(a);
+
+
+let browser = prompt('Каким браузером ты пользуешься ?');
+if(browser == 'Edge'){
+    console.log("You've got the Edge!");
+}else if(browser == 'Chrome' || browser == 'Firefox' 
+            || browser == 'Safari' || browser == 'Opera' ){
+    console.log('Okay we support these browsers too');
+}else{
+    console.log( 'We hope that this page looks ok!' );
 }
-*/
-/*Задание 2 вариант с while  
-let a = 11;
-while (a <= 33) {
-    console.log(a++);
+
+let number = +prompt('Введите число между 0 и 3', '');
+
+switch (number) {
+    case 0: console.log('Вы ввели число 0');
+        break;
+    case 1: console.log('Вы ввели число 1');
+        break;
+    case 2:
+    case 3: console.log('Вы ввели число 2, а может и 3');
+        break;
+    default: console.log(`Попробуйте еще раз!`);
+        break;
 }
+
 */
 
-/*Задание 2 вариант с for вариант реализации 1
-for (let a = 11; a <= 33; a++){
-    console.log(a);
-}
-*/
+let num = +prompt(`Введите значение от 1 до 4`),
+    result = '';
 
-/* Задание 2 вариант с for вариант реализации 2
-for (let a = 0; a <= 33; a++){
-    if (a < 11) continue;
-    console.log(a);
+switch (num) {
+    case 1:
+        console.log( result = 'Зима' );
+        break;
+    case 2:
+        console.log( result = 'Весна' );
+        break;
+    case 3:
+        console.log( result = 'Лето' );
+        break;
+    case 4:
+        console.log( result = 'Осень' );
+        break;
+    default: console.log(`Вы ввели неправильное значение! Введите от 1 до 4 включительно!`);
+        break;
 }
-*/
 
-/*Задание 3 вариант с While
-let a = 0;
-while (a <= 100) {
-    a++;
-    if(a % 2 == 0){
-        console.log(a);
-    }
-}
-*/
-
-/*Задание 3 вариант с for
-for(let a = 0; a <= 100; a++){
-    if(a % 2 == 0){
-        console.log(a);
-    }
-}
-*/
-
-/*Задание 4 вариант с while
-let sum = 0,
-    i = 0;
-while (i <= 100) {
-    console.log(sum += i);
-    i++;
-}
-*/
-
-/*Задание 4 Вариант с for
-let sum = 0;
-for (let i = 0; i <= 100; i++){
-    console.log(sum += i);
-}
-*/
-
-/* задача из youtube "фрилансер по жизни"
-for (let num = 0; num < 2; num++){
-    console.log(`Num: ${num}`);
-    for (let size = 0; size < 3; size++) {
-        if(num == 1) {
-            break;
-        }else{
-            console.log(`Size: ${size}`);
-        }
-    }
-    
-}
