@@ -1,36 +1,24 @@
-/*
-function checkAge(age){
-   return (age >= 18) ? true : confirm(`Родители разрешили?`);
-}
-
-console.log(checkAge(14));
-
-function checkAge(age){
-    return (age >= 18) || confirm(`Родители разрешили?`);
-}
-console.log(checkAge(22));
+// let num = 3;
+// console.log(num);
 
 
-function min (a, b){
-    if (a < b) {
-        return a;
-    }else if (a > b) {
-        return b;
-    }
-}
+// let a = 10,
+//     b = 2;
+// console.log(a + b, " ,", a - b, ",", a * b, ",", a / b);
 
-console.log(min(-17, -11));
+// let c = 15,
+//     d = 2,
+//     result = c + d;
+// console.log(result);
 
-function pow (x, n){
-    return x ** n;
-}
-console.log(pow(-3, 3));
-*/
+// let a = 10,
+//     b = 2,
+//     c = 5;
+// console.log(a+b+c);
 
-let ask = (question, yes, no) => (confirm(question)) ? yes() : no();
-
-ask(
-    "Вы согласны?",
-    () => { alert("Вы согласились."); },
-    () => { alert("Вы отменили выполнение."); }
-  );
+// let a = 17,
+//     b =10,
+//     c = a - b,
+//     d = 7,
+//     result = c + d;
+// console.log(result);
