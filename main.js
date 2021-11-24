@@ -1,49 +1,30 @@
-/* task 1 
-    let num = 3;
-    console.log(num);
-*/
+//  const person = {
+//      name : "Максим",
+//      age : 25,
+//      sayHello : 'Hello',
+//      logInfo: function (){
+//          console.log(this.name);
+//      }   
+//  };
 
-/* task 2
-let a = 10;
-let b = 2;
-console.log(a + b, "," , a - b, "," , a * b , ",", a / b);
-*/
+//  person.logInfo();
 
-/* task 3
-let c = 15;
-let d = 2;
-let result = c + d;
-console.log(result);
-*/
+let house = 'slytherin';
 
-/*task 4
-let a = 10,
-    b = 2,
-    c = 5;
-console.log(a+b+c);
-*/
-
-/*task 5
-let a = 17,
-    b = 10,
-    c = a - b,
-    d = 7,
-    result = c + d;
-console.log(result);
-*/
-
-
-/* ~~~ task for learn js ~~~ */
-
-/* task 1 
-let admin ,
-    name = "Джон";
-console.log(admin = name);
-*/
-
-
-/* task 2
-let planetName = "Земля",
-    userName = "Maxim";
-*/
-
+switch(house){
+    case 'gryffindor': 
+        console.log('bravery'); 
+        break;
+    case 'hufflepuff': 
+         console.log('loyalty');
+         break;
+    case 'slytherin': 
+         console.log('cunning');
+         break;
+    case 'ravenclaw': 
+         console.log('intellect');
+         break;
+    defoult:
+         console.log('not a valid house');
+         break;
+}
