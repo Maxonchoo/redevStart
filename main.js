@@ -1,42 +1,32 @@
-// "use strict"
-/*
-function Colculator() {
-     this.read = function(){
-          this.tempFirst = +prompt(`Введите А `); 
-          this.tempLast = +prompt(`Введите В `); 
-     };
-
-     this.sum = function(){
-               return this.tempFirst + this.tempLast;
-     };
-
-     this.mul = function(){
-               return this.tempFirst * this.tempLast;
-     };
-};
-
-let colculator = new Colculator();
-
-colculator.read();
-
-alert(`Sum =  ${colculator.sum()}`);
-alert(`mul =  ${colculator.mul()}`);
-
-*/
+// let text = "фрилансер";
 
 
-function Accumulaor(startingValue){
-     this.startingValue = startingValue;
-     this.value = +prompt(`Read number`);
-     this.read = function(){
-           
-          return this.value + this.startingValue; 
-     
-     };
-}
+// for (let i of text){
+//      if(i !== "н"){
+//           continue;
+//      }else{
+//           console.log(i);
+//           break;
+//      }
+// }
+
+// console.log(text.toUpperCase());
+// console.log(text.slice(3, 6));
+// console.log(text.includes('лан', 3));
 
 
-let accumulaor = new Accumulaor(7);
 
-console.log(accumulaor.read());
+/задача 1
+let str = `Привет, мир!`;
+console.log(str);
 
+/задача 2
+let str1 = `Привет, `, str2 = `Мир!`;
+console.log(str1 + str2);
+
+/задача 3
+let name = `Максим`;
+console.log(`Привет, %${name}%`);
+/задача 4
+let age = 26;
+console.log(`Мне ${age} лет!`);
