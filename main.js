@@ -1,39 +1,42 @@
-function Constr(firstName, lastName, age, city, prifession) {
-
-     this.firstName = firstName;
-     this.lastName = lastName;
-     this.age = age;
-     this.city = city;
-     this.prifession = prifession;
-
-     let job = 'track driver';
-
-     this.sayHello = function(){
-          return `hello my name is ${this.firstName}, my favorite job ${job}`;
+// "use strict"
+/*
+function Colculator() {
+     this.read = function(){
+          this.tempFirst = +prompt(`Введите А `); 
+          this.tempLast = +prompt(`Введите В `); 
      };
 
-}
+     this.sum = function(){
+               return this.tempFirst + this.tempLast;
+     };
 
-let man = new Constr ("Максим", "Чижиков", 26, "Гомель", NaN);
-
-console.table(man.sayHello());
-
-let MyApp = {
-    man : function (firstName, lastName, age, city, prifession){
-          this.firstName = firstName;
-          this.lastName = lastName;
-          this.age = age;
-          this.city = city;
-          this.prifession = prifession;
-    }
+     this.mul = function(){
+               return this.tempFirst * this.tempLast;
+     };
 };
 
-let goga = new MyApp.man('Гога', 'Тупуриа', '32', 'СПБ', 'Фитнес-Тренер');
+let colculator = new Colculator();
 
-console.log(goga);
+colculator.read();
 
-console.log( goga instanceof MyApp.man);
-console.log(goga.constructor);
+alert(`Sum =  ${colculator.sum()}`);
+alert(`mul =  ${colculator.mul()}`);
 
-console.log(man instanceof Constr); 
-console.log(man.constructor);
+*/
+
+
+function Accumulaor(startingValue){
+     this.startingValue = startingValue;
+     this.value = +prompt(`Read number`);
+     this.read = function(){
+           
+          return this.value + this.startingValue; 
+     
+     };
+}
+
+
+let accumulaor = new Accumulaor(7);
+
+console.log(accumulaor.read());
+
