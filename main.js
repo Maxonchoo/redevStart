@@ -1,32 +1,91 @@
-// let text = "фрилансер";
+// function sumInput() {
+//     const massTemp = [];
 
 
-// for (let i of text){
-//      if(i !== "н"){
-//           continue;
-//      }else{
-//           console.log(i);
-//           break;
-//      }
-// }
+//     while(true){
+//         let value = +prompt("Введите число");
+        
+//         if(massTemp === " " || value === null || !isFinite(value)) break;
+       
+//         massTemp.push(+value);
+//     }
 
-// console.log(text.toUpperCase());
-// console.log(text.slice(3, 6));
-// console.log(text.includes('лан', 3));
+//     let sum = 0;
+//     for (let number of massTemp){
+//         sum += number;
+//     }
+//     return sum;
+// }   
+
+// console.log(sumInput());
+
+/*
+const user = { 
+    name : "john",
+    age : 26,
+};  
+
+let key = prompt("Что вы хотите узнать о пользователе?", "хер");
+
+console.log(user[key]);
+
+const admin = {
+    name : "barth",
+    age : 19,
+};
+
+function sayHi() {
+    console.log(this.name);
+};
+
+user.fedora = sayHi;
+admin.fedora = sayHi;
+
+user.fedora();
+admin.fedora();
 
 
+let str = `Ослик Иа-Иа посмотрел на виадук`;
+let target = `Иа`;
 
-/задача 1
-let str = `Привет, мир!`;
-console.log(str);
+let post = -1;
+while((post = str.indexOf(target, post +1 )) != -1){
+    console.log(post);
+};
 
-/задача 2
-let str1 = `Привет, `, str2 = `Мир!`;
-console.log(str1 + str2);
+*/
+/*
+function random() {
+    return Math.floor(Math.random() * 100);
+};
 
-/задача 3
-let name = `Максим`;
-console.log(`Привет, %${name}%`);
-/задача 4
-let age = 26;
-console.log(`Мне ${age} лет!`);
+console.log( random());
+*/
+/*
+for (let index = 0; index <= 65536; index++  ){
+    console.log(String.fromCodePoint(index));
+    //console.log(index);
+
+    function random() {
+        return Math.floor(Math.random() * index);
+    };
+    
+    console.log( random());
+
+}
+
+console.log();
+*/
+
+function ucFirst(str) {
+    if(str !== " "){
+        let temp = (str[0].toUpperCase() + str.slice(1));
+        return temp;
+    }else{
+        console.log( `введите что нибудь `);
+        return str;
+    }
+};
+console.log( ucFirst(" "));
+
+
